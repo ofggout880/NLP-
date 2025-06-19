@@ -1,5 +1,4 @@
-# NLP-
-Test de NLP
+
 # NLP
 
 Experiments in Natural Language Processing.
