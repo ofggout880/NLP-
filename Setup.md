@@ -55,3 +55,12 @@ def preprocess(text):
 
 df['verbatim_preproc'] = df['verbatim_insat_clean'].apply(preprocess)
 ```
+
+
+
+
+
+
+# ANNEXE/INFO
+Une erreur initiale dans l'expression régulière de nettoyage (\\s+ au lieu de \s+) a été identifiée et corrigée. Cette étape garantit que les mots restent correctement séparés par des espaces simples, condition essentielle pour la tokenisation, la lemmatisation et toute modélisation ultérieure en NLP.
+
