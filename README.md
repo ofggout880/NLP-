@@ -29,6 +29,7 @@ This project uses Python 3 with a few common libraries:
 
 - `pandas`
 - `spacy`
+- `re`
 
 Install dependencies with `pip` and download a spaCy model:
 
